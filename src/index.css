@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for Chrome, Edge, Safari */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+.scroll_hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html, body, .scroll_hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+

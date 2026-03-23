@@ -1,0 +1,14 @@
+html, body {
+  overflow: hidden;
+}
+/* Chrome, Edge, Safari */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+html, body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
