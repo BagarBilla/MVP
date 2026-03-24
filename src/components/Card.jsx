@@ -33,7 +33,7 @@ useEffect(() => {
   }, [count]);
   return (
     <>
-      <div className="relative lg:h-[14vw] lg:w-[10vw] md:h-[16vw] md:w-[12vw] h-[30vw] w-[22vw]">
+      <div className="relative lg:h-[14vw] lg:w-[10vw] md:h-[16vw] md:w-[12vw] h-[34vw] w-[26vw] ">
         <div className="relative h-[60%] w-full rounded-full overflow-hidden">
           <img className="h-full w-full rounded-full" src={img} alt={tittle} />
           <div className="absolute top-[60%] md:top-[60%] lg:top-[60%] bg-gradient-to-b from-[#2FA999]/20 to-[#2FA999] to-[70%] z-10 h-[40%] w-full flex justify-center items-center">
@@ -42,8 +42,8 @@ useEffect(() => {
             </h2>
           </div>
         </div>
-        <div className="h-[50%] w-full flex flex-col items-center">
-          <div className="bg-white border-2 border-black lg:h-[3vw] md:h-[4vw] h-[6vw] w-full rounded-full grid grid-cols-3 overflow-hidden justify-center items-center">
+        <div className="h-[50vw] lg:h-[60%] w-full flex flex-col items-center">
+          <div className="bg-white border-2 border-black lg:h-[3vw] md:h-[4vw] h-[8vw] w-full rounded-full grid grid-cols-3 overflow-hidden justify-center items-center">
             <button
               className="col-span-1 flex justify-center items-center hover:bg-gradient-to-l from-[#2FA999]/0 to-[#2FA999]/50 transition-colors duration-300 h-[2vw]"
               onClick={() => {
@@ -168,10 +168,10 @@ useEffect(() => {
             </button>
           </div>
           <button
-            className="bg-[#C36137] h-[5vw] w-[8vw] md:h-[3vw] md:w-[5vw] lg:h-[2vw] lg:w-[5vw] rounded-lg flex justify-center items-center  "
+            className="bg-[#C36137] h-[6vw] w-[12vw] md:h-[3vw] md:w-[5vw] lg:h-[2vw] lg:w-[5vw] rounded-lg flex justify-center items-center  "
             onClick={() => setOpen(!open)}
           >
-            <h2 className="md:text-[1.2vw] text-[2vw] font-heading font-extrabold text-white">
+            <h2 className="md:text-[1.2vw] text-[2.8vw] font-heading font-extrabold text-white">
               {unit}
             </h2>
             <motion.svg

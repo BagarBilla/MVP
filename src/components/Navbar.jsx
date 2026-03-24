@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className=" col-span-3 justify-start flex items-center">
           <Link to="/">
         <img
-          className=" rounded-full w-16  md:w-20 lg:w-28 lg:ml-28 md:ml-20 ml-10"
+          className=" rounded-full w-16  md:w-20 lg:w-28 lg:ml-28 md:ml-20 ml-6"
           src={logo}
           alt="logo"
         />
@@ -31,14 +31,14 @@ const Navbar = () => {
           <img
             src={book}
             alt="Book Icon"
-            className="w-10  md:w-12 lg:w-16  object-contain"
+            className="w-16  md:w-12 lg:w-16  object-contain"
           />
           </Link>
 
           {/* Cart Icon */}
           <Link to="/cart">
           <svg
-            className="size-8 md:size-10 lg:size-12 shrink-0"
+            className="size-6 md:size-10 lg:size-12 shrink-0"
             viewBox="0 0 67 67"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Navbar = () => {
           {/* Phone Icon */}
           <Link to="/contact">
           <svg
-            className="size-8 md:size-10 lg:size-12 shrink-0"
+            className="size-6 md:size-10 lg:size-12 shrink-0"
             viewBox="0 0 65 65"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

@@ -35,7 +35,7 @@ const Khata = () => {
             <h2 onClick={()=> setMonth("December")} className="hover:text-[#2FA999] cursor-pointer" >December</h2>
           </div>
             <div className="flex flex-row px-4 py-1 justify-between scrollbar-hide font-heading gap-28 font-extrabold text-lg border-b-4 border-[#C36137]">
-                <h1 className="font-heading font-extrabold text-[#2FA999] text-3xl ">Mera Khata</h1>
+                <h1 className="font-heading font-extrabold text-[#2FA999] text-lg lg:text-3xl ">Mera Khata</h1>
                 <h3 className="text-[#C36137] font-heading font-extrabold mt-2 ">Total Amount Due: <span className="text-[#D32F2F] font-heading font-extrabold">500</span></h3>
             </div>
           </div> {/* end sticky header */}
@@ -73,7 +73,7 @@ const Khata = () => {
             <div className="text-center mt-4 font-heading font-extrabold text-xl ">
               Total: ₹{value.totalBill}
             </div>
-            <div className="flex justify-evenly mt-4 font-heading font-extrabold text-xl">
+            <div className="flex justify-evenly mt-4 font-heading font-extrabold text-lg lg:text-xl">
                 <h3 className=" font-heading font-extrabold">Status:</h3>
                 <h3 className="text-[#388E3C] font-heading font-extrabold">Paid:{value.totalBill/2}</h3>
                 <h3 className="text-[#D32F2F] font-heading font-extrabold">Due:{value.totalBill/2}</h3>

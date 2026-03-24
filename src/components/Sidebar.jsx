@@ -2,7 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 const Sidebar = ({ sections }) => {
-  const [open, setOpen] = useState(true);
+  const isMobile = () => window.innerWidth < 768;
+  const [open, setOpen] = useState(!isMobile());
   return (
     <>
       <motion.div
@@ -36,7 +37,7 @@ const Sidebar = ({ sections }) => {
         </div>
 
         <div
-          className="lg:w-[18vw] md:w-[28vw] w-[50vw] bg-white h-[90vh] lg:h-[86vh] border-r-4 border-[#C36137] pl-4 pt-1 overflow-y-scroll scroll_hide"
+          className="lg:w-[18vw] md:w-[28vw] w-[60vw] bg-white h-[90vh] lg:h-[86vh] border-r-4 border-[#C36137] pl-4 pt-1 overflow-y-scroll scroll_hide"
         >
           <a href="#quickOrder">
             {" "}

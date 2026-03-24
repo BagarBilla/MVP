@@ -11,13 +11,13 @@ const Home = () => {
     <>
       <section className="h-screen w-screen bg-white overflow-hidden">
         <div className="grid md:grid-cols-12 h-full overflow-hidden grid-rows-12">
-          <div className="order-2 relative md:order-1 h-full row-span-5 md:col-span-6 md:row-span-8 flex flex-col justify-end items-start">
+          <div className="order-2 relative md:order-1 h-full row-span-5 md:col-span-6 md:row-span-8 flex flex-col justify-start items-start">
             <img
-              className="relative lg:top-[8px] left-[40px] -top-[16px] rounded-full h-24 md:relative md:h-40 lg:h-44 "
+              className="relative lg:top-[8px] left-[28px] -top-[38px] rounded-full h-28 md:relative md:h-40 lg:h-44 "
               src={logo}
               alt="logo"
             />
-            <h1 className="text-[#2FA999] font-heading font-extrabold text-[7vw] md:text-[3.7vw] lg:text-[3.8vw] ml-12">
+            <h1 className="text-[#2FA999] font-heading font-extrabold text-[7vw] md:text-[3.7vw] lg:text-[3.8vw] ml-8 lg:ml-12">
               Order Online Skip the Line.
             </h1>
             <h2 className="text-[#C36137] font-heading font-extrabold text-[4.4vw] md:text-[2.4vw] lg:text-[2.4vw] lg:mt-2 lg:mb-2 md:mt-8 md:mb-8 mb-4 mt-4 ml-12 leading-snug">
@@ -31,14 +31,14 @@ const Home = () => {
             <img
               src={book}
               alt="Book Icon"
-              className="w-10 h-10 md:w-16 md:h-16 lg:w-20 lg:h-20 object-contain"
+              className="w-9 h-9 md:w-16 md:h-16 lg:w-20 lg:h-20 object-contain"
             />
             </Link>
 
             {/* Cart Icon */}
             <Link to="/cart">
             <svg
-              className="size-8 md:size-12 lg:size-14 shrink-0"
+              className="size-7 md:size-12 lg:size-14 shrink-0"
               viewBox="0 0 67 67"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Home = () => {
             {/* Phone Icon */}
              <Link to="/contact">
             <svg
-              className="size-8 md:size-12 lg:size-14 shrink-0"
+              className="size-7 md:size-12 lg:size-14 shrink-0"
               viewBox="0 0 65 65"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -76,21 +76,21 @@ const Home = () => {
             <div
               className="absolute lg:-right-[50vw] lg:-top-[0px] lg:w-[200%] lg:h-[250%]
               md:-right-[50vw] md:top-[90px] md:w-[200%] md:h-[200%]
-              -right-[470px] -top-[0px] w-[200%] h-[2000%]
+              -right-[410px] -top-[0px] w-[200%] h-[2000%]
                bg-gradient-to-b from-[#6CCFC1] from-[27%] to-[#376962] rounded-full shadow 
-               flex flex-col justify-start items-start md:pt-32 pt-6 md:pl-[11vw] pl-[44vw] lg:pl-[10vw] gap-2"
+               flex flex-col justify-start items-start md:pt-32 pt-14 md:pl-[11vw] pl-[34vw] lg:pl-[10vw] gap-2"
             >
-              <img src={shop} alt="shop" className=" lg:w-96 md:w-80 w-60 ml-[8vw] md:ml-[1vw] lg:ml-[11vw]" />
+              <img src={shop} alt="shop" className=" lg:w-96 md:w-80 w-52 ml-[0vw] md:ml-[1vw] lg:ml-[11vw]" />
               <h2 className="text-white font-heading font-extrabold text-[3.5vw] md:text-[2.2vw] lg:text-[2.3vw]">भरोसा लोकल का, सुविधा ऑनलाइन की।</h2>
             </div>
           </div>
           <div className="order-3 md:order-4 h-full relative row-span-1 md:col-span-6 md:row-span-4 flex flex-col justify-center items-start md:pb-6 pl-8 gap-8">
             <div className="flex gap-4">
-            <img src={widgits1} alt="widgit" className="absolute top-[114px] left-[78px] md:relative md:top-auto md:left-auto w-12 lg:w-20 md:w-16"/>
+            <img src={widgits1} alt="widgit" className="absolute top-[118px] left-[78px] md:relative md:top-auto md:left-auto w-12 lg:w-20 md:w-16"/>
             <img src={widgits2} alt="widgit" className="absolute top-[60px] left-[156px] md:relative md:top-auto md:left-auto w-12 lg:w-20 md:w-16"/> 
-            <img src={widgits3} alt="widgit" className="absolute top-[28px] left-[244px] md:relative md:top-auto md:left-auto w-12 lg:w-20 md:w-16"/>
+            <img src={widgits3} alt="widgit" className="absolute top-[24px] left-[244px] md:relative md:top-auto md:left-auto w-12 lg:w-20 md:w-16"/>
             </div>
-            <h2 className="font-heading font-extrabold text-[2vw] md:text-[1.2vw] lg:text-[1.4vw] mb-20 md:mb-0">Avoid the rush hour crowds—your order is waiting for you.</h2>
+            <h2 className="font-heading font-extrabold text-[2.4vw] md:text-[1.2vw] lg:text-[1.4vw] mb-32 md:mb-0">Avoid the rush hour crowds—your order is waiting for you.</h2>
           </div>
         </div>
       </section>
